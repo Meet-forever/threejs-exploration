@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home-page{
+  padding: 2rem;
+}
+.home-page > * {
+  margin: 1rem 0;
+}
+
+nav{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 2;
+}
+
+.nav-btn{
+  background-color: rgb(66, 66, 66);
+  padding: 0.5rem;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+
+.nav-btn:hover{
+  cursor: pointer;
+}
+
+canvas{
+  width: 100vw;
+  height: 100vh;
+}
